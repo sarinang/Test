@@ -22,8 +22,7 @@ struct Context
     std::unique_ptr<Engine::StateMan> m_states;
     std::unique_ptr<sf::RenderWindow> m_window;
     bool isMusicOn = true;
-    bool isHard= false;
-    
+    bool isHard = false;
     Context()
     {
         m_assets = std::make_unique<Engine::AssetMan>();
